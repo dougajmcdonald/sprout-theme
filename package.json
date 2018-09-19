@@ -1,0 +1,22 @@
+{
+    "name": "sprout-theme",
+    "displayName": "sprout-theme",
+    "description": "VS Code Sprout",
+    "version": "0.0.1",
+    "publisher": "dougajmcdonald",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sprout",
+                "uiTheme": "vs",
+                "path": "./themes/sprout.json"
+            }
+        ]
+    }
+}
